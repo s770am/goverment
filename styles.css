@@ -1,0 +1,56 @@
+body{
+display: grid;
+grid-template-rows: 35vh 1fr;
+margin: 0%;
+
+}
+
+.top-box{
+    position: relative;
+}
+
+.img {
+width:15vw;
+height: 25vh;
+}
+
+.outter-box {
+    position:absolute;
+    bottom: 5%;
+    right: 5rem;
+
+}
+
+.quote{
+    border: 1px solid black;
+    width: 55%;
+
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.bottom-box{
+    border-top: 3px solid black;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1%;
+
+}
+
+.party-box {
+border: 2px solid black;
+margin: 1rem;
+}
+
+.member {
+    border:0.5px solid black;
+    margin: 0%;
+    text-align: center;
+}
+
